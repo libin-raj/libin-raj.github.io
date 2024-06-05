@@ -1297,7 +1297,7 @@ img {
 .highlighted-name {
   color: #6ba9eb;
 }
-@-webkit-keyframes rubberBand {
+@keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
             transform: scale3d(1, 1, 1);
