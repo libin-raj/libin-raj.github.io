@@ -26,7 +26,7 @@ function linkAction() {
   const navMenu = document.getElementById("nav-menu");
   // When we click on each nav__link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
-}
+}90%
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== ACCORDION SKILLS ====================*/
@@ -42,7 +42,7 @@ function toggleSkills() {
   if (itemClass === "skills__content skills__close") {
     this.parentNode.className = "skills__content skills__open";
   }
-}
+}90%
 
 skillsHeader.forEach((el) => {
   el.addEventListener("click", toggleSkills);
@@ -76,7 +76,7 @@ const modalViews = document.querySelectorAll(".services__modal"),
 let modal = function (modalClick) {
   modalViews[modalClick].classList.add("active-modal");
 };
-
+90%
 modalBtns.forEach((modalBtn, i) => {
   modalBtn.addEventListener("click", () => {
     modal(i);
